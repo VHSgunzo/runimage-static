@@ -1,0 +1,67 @@
+#### For who
+need compile on gcc (not musl)
+
+#### For lsof
+##https://github.com/lsof-org/lsof
+https://github.com/minos-org/minos-static
+static-get lsof
+# or
+url="http://s.minos.io/archive/bifrost/x86_64/"
+wget -q "${url}$(curl -s "$url"|grep -o 'lsof.*tar\.xz"'|head -1|tr -d \")"
+
+#### For bash
+https://github.com/robxu9/bash-static/releases
+
+#### For tar
+https://github.com/VHSgunzo/tar-static/releases
+
+#### For gzip
+https://github.com/VHSgunzo/gzip-static/releases
+
+#### For xz
+https://github.com/VHSgunzo/xz-static/releases
+
+#### For runimage-runtime
+https://github.com/VHSgunzo/runimage-runtime-static/releases
+
+#### For xhost
+https://github.com/VHSgunzo/xorg-xhost-static/releases
+
+#### For notify-send
+https://github.com/VHSgunzo/notify-send-static/releases
+
+#### For squashfuse
+https://github.com/VHSgunzo/squashfuse-static/releases
+
+#### For squashfs-tools
+https://github.com/VHSgunzo/squashfs-tools-static/releases
+
+#### For bubblewrap
+https://github.com/VHSgunzo/bubblewrap-static/releases
+
+#### For aria2c
+https://github.com/abcfy2/aria2-static/releases-build
+
+#### For kmod
+https://github.com/VHSgunzo/kmod-static/releases
+
+#### For coreutils
+https://github.com/VHSgunzo/coreutils-static/releases
+
+#### For findutils
+https://github.com/VHSgunzo/findutils-static/releases
+
+#### For gawk
+https://github.com/VHSgunzo/gawk-static/releases
+
+#### For grep
+https://github.com/VHSgunzo/grep-static/releases
+
+#### For sed
+https://github.com/VHSgunzo/sed-static/releases
+
+#### For which
+https://github.com/VHSgunzo/which-static/releases
+
+#### For procps
+https://github.com/VHSgunzo/procps-static/releases
