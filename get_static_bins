@@ -9,6 +9,12 @@ static-get lsof
 url="http://s.minos.io/archive/bifrost/x86_64/"
 wget -q "${url}$(curl -s "$url"|grep -o 'lsof.*tar\.xz"'|head -1|tr -d \")"
 
+#### For superglue
+https://github.com/VHSgunzo/superglue/releases
+
+#### For fuse-overlayfs
+https://github.com/containers/fuse-overlayfs/releases
+
 #### For curl
 https://github.com/moparisthebest/static-curl/releases
 
