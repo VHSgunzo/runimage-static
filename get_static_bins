@@ -71,3 +71,15 @@ https://github.com/VHSgunzo/which-static/releases
 
 #### For procps
 https://github.com/VHSgunzo/procps-static/releases
+
+#### For headpid
+https://github.com/VHSgunzo/runimage/blob/main/headpid.c
+
+#### For importenv
+https://github.com/VHSgunzo/importenv/releases
+
+#### For slirp4netns
+https://github.com/rootless-containers/slirp4netns/releases
+
+#### For util-linux
+https://github.com/VHSgunzo/util-linux-static/releases
