@@ -69,9 +69,6 @@ https://github.com/VHSgunzo/which-static/releases
 #### For procps
 https://github.com/VHSgunzo/procps-static/releases
 
-#### For headpid
-https://github.com/VHSgunzo/runimage/blob/main/headpid.c
-
 #### For importenv
 https://github.com/VHSgunzo/importenv/releases
 
@@ -83,3 +80,6 @@ https://github.com/VHSgunzo/util-linux-static/releases
 
 #### For socat
 https://github.com/VHSgunzo/socat-static/releases
+
+#### For ptyspawn
+https://github.com/VHSgunzo/ptyspawn/releases
