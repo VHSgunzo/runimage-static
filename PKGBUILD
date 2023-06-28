@@ -13,5 +13,6 @@ sha256sums=('SKIP')
 
 package() {
   mkdir -p "${pkgdir}/var/RunDir"
+  tar -xvf "$srcdir/$source" -C "$srcdir"
   cp -rf "${srcdir}/static" "${pkgdir}/var/RunDir/"
 }
