@@ -20,9 +20,7 @@ jobs:
       - name: Build archlinux package
         uses: vufa/arch-makepkg-action@master
         with:
-          packages: |
-            git-lfs
-          scripts: "./build.sh"
+          scripts: "makepkg -fsCc --noconfirm --nodeps"
 
       - name: Release
         uses: softprops/action-gh-release@v1
