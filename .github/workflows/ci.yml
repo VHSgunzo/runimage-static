@@ -20,6 +20,8 @@ jobs:
       - name: Build archlinux package
         uses: vufa/arch-makepkg-action@master
         with:
+          packages: |
+            git-lfs
           scripts: "./build.sh"
 
       - name: Release

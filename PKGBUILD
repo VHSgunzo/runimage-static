@@ -12,8 +12,6 @@ source=("runimage-static-$arch.tar.xz")
 sha256sums=('SKIP')
 
 package() {
-  ls|xargs -I {} ls -la $(realpath {})
-  tar -xvf "$source"
   mkdir -p "${pkgdir}/var/RunDir"
   cp -rf "${srcdir}/static" "${pkgdir}/var/RunDir/"
 }
