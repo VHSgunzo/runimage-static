@@ -19,6 +19,7 @@ Statically compiled binaries for [RunImage](https://github.com/VHSgunzo/runimage
     * ls
     * mkdir
     * mknod
+    * mkfifo
     * mv
     * pwd
     * realpath
