@@ -27,6 +27,7 @@ Statically compiled binaries for [RunImage](https://github.com/VHSgunzo/runimage
     * sleep
     * sort
     * tail
+    * tee
     * touch
     * tty
     * uname
