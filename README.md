@@ -66,7 +66,7 @@ Statically compiled binaries for [RunImage](https://github.com/VHSgunzo/runimage
     * [tar](https://github.com/VHSgunzo/tar-static) 1.34
     * [socat](https://github.com/VHSgunzo/socat-static) 1.7.4.4
     * [sed](https://github.com/VHSgunzo/sed-static) 4.9
-    * [ptyspawn](https://github.com/VHSgunzo/ptyspawn) 0.0.4
+    * [ptyspawn](https://github.com/VHSgunzo/ptyspawn) 0.0.5
     * [grep](https://github.com/VHSgunzo/grep-static) 3.11
     * [gzip](https://github.com/VHSgunzo/gzip-static) 1.12
     * [awk](https://github.com/VHSgunzo/gawk-static) 5.2.2
