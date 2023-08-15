@@ -59,6 +59,7 @@ Statically compiled binaries for [RunImage](https://github.com/VHSgunzo/runimage
     * [notify-send](https://github.com/VHSgunzo/notify-send-rs) 0.0.1
     * [importenv](https://github.com/VHSgunzo/importenv) 0.0.6
 * (musl):
+    * [bwrap](https://github.com/VHSgunzo/bubblewrap-static) 0.8.0.r20
     * [curl](https://github.com/moparisthebest/static-curl) 8.0.1
     * [which](https://github.com/VHSgunzo/which-static) 2.21
     * [lsof](https://github.com/minos-org/minos-static) 4.84 (minos-static)
@@ -74,7 +75,6 @@ Statically compiled binaries for [RunImage](https://github.com/VHSgunzo/runimage
     * [bash](https://github.com/robxu9/bash-static) 5.2.015-1.2.3-2
 * (glibc):
     * [runtime-fuse2-all](https://github.com/VHSgunzo/runimage-runtime-static) 0.4.6
-    * [bwrap](https://github.com/VHSgunzo/bubblewrap-static) 0.8.0.r20
     * [slirp4netns](https://github.com/rootless-containers/slirp4netns) 1.2.0
 * (staticx musl):
     * [xhost](https://github.com/VHSgunzo/xorg-xhost-static) 1.0.9
