@@ -29,6 +29,7 @@ Statically compiled binaries for [RunImage](https://github.com/VHSgunzo/runimage
     * tail
     * tee
     * touch
+    * tr
     * tty
     * uname
     * uniq
