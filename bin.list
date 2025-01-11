@@ -13,6 +13,7 @@
 /usr/bin/du
 /usr/bin/echo
 /usr/bin/find
+/usr/bin/findmnt
 /usr/bin/gocryptfs
 /usr/bin/grep
 /usr/bin/head
