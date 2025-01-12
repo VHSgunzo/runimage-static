@@ -65,3 +65,4 @@
 /usr/bin/xhost
 /usr/bin/jq
 /usr/bin/strip
+/usr/bin/patchelf
