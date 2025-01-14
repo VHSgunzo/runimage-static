@@ -17,7 +17,7 @@ depends=(
   bash coreutils curl findutils gawk grep iproute2
   kmod procps-ng sed tar util-linux which gocryptfs
   libnotify lsof slirp4netns socat xorg-xhost gzip
-  xz zstd lz4 jq binutils patchelf
+  xz zstd lz4 jq binutils patchelf file
   runimage-bubblewrap runimage-unionfs-fuse runimage-tini
   runimage-uruntime runimage-chisel runimage-ssrv
 )

@@ -66,3 +66,4 @@
 /usr/bin/jq
 /usr/bin/strip
 /usr/bin/patchelf
+/usr/bin/file
