@@ -67,3 +67,4 @@
 /usr/bin/strip
 /usr/bin/patchelf
 /usr/bin/file
+/usr/bin/strings

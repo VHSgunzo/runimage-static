@@ -1,14 +1,14 @@
 # Maintainer: VHSgunzo <vhsgunzo.github.io>
 
 pkgname='runimage-static'
-pkgver='0.40.4'
+pkgver='0.40.5'
 pkgrel='1'
 pkgdesc='Tools and sharun wrapper over RunImage rootfs to run the container.'
 url="https://github.com/VHSgunzo/runimage-static"
 arch=('x86_64' 'aarch64')
 license=('MIT')
 options=(!strip)
-sharunver='v0.2.6'
+sharunver='v0.2.8'
 sharunurl='https://github.com/VHSgunzo/sharun/releases/download'
 source=('bin.list' "$sharunurl/$sharunver/sharun-${CARCH}")
 sha256sums=('SKIP' 'SKIP')
