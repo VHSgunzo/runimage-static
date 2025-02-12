@@ -1,7 +1,7 @@
 # Maintainer: VHSgunzo <vhsgunzo.github.io>
 
 pkgname='runimage-static'
-pkgver='0.40.5'
+pkgver='0.40.6'
 pkgrel='1'
 pkgdesc='Tools and sharun wrapper over RunImage rootfs to run the container.'
 url="https://github.com/VHSgunzo/runimage-static"
