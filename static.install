@@ -30,7 +30,7 @@ post_install() (
             if [ -n "$new_bins" ]
                 then
                     (unset LD_PRELOAD
-                    "$sharun_dir/sharun" lib4bin -p -g -d "$sharun_dir" "${new_bins[@]}")
+                    "$sharun_dir/lib4bin" -p -g -d "$sharun_dir" "${new_bins[@]}")
             fi
     fi
     if [ ! -e 'lib/lib.path' ]

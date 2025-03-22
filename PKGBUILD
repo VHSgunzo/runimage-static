@@ -1,17 +1,21 @@
 # Maintainer: VHSgunzo <vhsgunzo.github.io>
 
 pkgname='runimage-static'
-pkgver='0.40.6'
+pkgver='0.40.7'
 pkgrel='1'
+sharunver='0.5.2'
 pkgdesc='Tools and sharun wrapper over RunImage rootfs to run the container.'
-url="https://github.com/VHSgunzo/runimage-static"
+ghrepo='https://github.com/VHSgunzo'
+url="$ghrepo/runimage-static"
 arch=('x86_64' 'aarch64')
 license=('MIT')
 options=(!strip)
-sharunver='v0.2.9'
-sharunurl='https://github.com/VHSgunzo/sharun/releases/download'
-source=('bin.list' "$sharunurl/$sharunver/sharun-${CARCH}")
-sha256sums=('SKIP' 'SKIP')
+source=(
+  'bin.list'
+  "$ghrepo/sharun/releases/download/v$sharunver/sharun-${CARCH}-lite"
+  "https://raw.githubusercontent.com/VHSgunzo/sharun/refs/heads/main/lib4bin"
+)
+sha256sums=('SKIP' 'SKIP' 'SKIP')
 install='static.install'
 depends=(
   bash coreutils curl findutils gawk grep iproute2
@@ -23,7 +27,8 @@ depends=(
 )
 
 package() {
-  install -Dm755 "sharun-${CARCH}" "${pkgdir}/var/RunDir/sharun/sharun"
+  install -Dm755 "sharun-${CARCH}-lite" "${pkgdir}/var/RunDir/sharun/sharun"
+  install -Dm755 'lib4bin' "${pkgdir}/var/RunDir/sharun/lib4bin"
   install -Dm644 'bin.list' "${pkgdir}/var/RunDir/sharun/bin.list"
   mkdir -p "${pkgdir}/var/RunDir/sharun"/{bin,shared}
   (cd "${pkgdir}/var/RunDir/sharun" && \
