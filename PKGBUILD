@@ -2,8 +2,8 @@
 
 pkgname='runimage-static'
 pkgver='0.40.7'
-pkgrel='1'
-sharunver='0.5.6'
+pkgrel='2'
+sharunver='0.5.7'
 pkgdesc='Tools and sharun wrapper over RunImage rootfs to run the container.'
 ghrepo='https://github.com/VHSgunzo'
 url="$ghrepo/runimage-static"
