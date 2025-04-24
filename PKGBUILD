@@ -1,9 +1,9 @@
 # Maintainer: VHSgunzo <vhsgunzo.github.io>
 
 pkgname='runimage-static'
-pkgver='0.40.9'
+pkgver='0.41.1'
 pkgrel='1'
-sharunver='0.6.3'
+sharunver='0.6.5'
 pkgdesc='Tools and sharun wrapper over RunImage rootfs to run the container.'
 ghrepo='https://github.com/VHSgunzo'
 url="$ghrepo/runimage-static"
@@ -21,7 +21,7 @@ depends=(
   bash coreutils curl findutils gawk grep iproute2
   kmod procps-ng sed tar util-linux which gocryptfs
   libnotify lsof slirp4netns socat xorg-xhost gzip
-  xz zstd lz4 jq binutils patchelf file
+  xz zstd lz4 jq binutils patchelf file runimage-cpids
   runimage-bubblewrap runimage-unionfs-fuse runimage-tini
   runimage-uruntime runimage-chisel runimage-ssrv
 )
